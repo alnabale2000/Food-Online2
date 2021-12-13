@@ -1,0 +1,22 @@
+#orders {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.order {
+    border: 0.5px rgb(165, 158, 158) solid;
+    padding: 5px;
+    margin: 5px 0 5px 0;
+}
+
+.user-order {
+    padding-top: 10px;
+    justify-content: start;
+    text-align: start;
+}
+.order-header {
+    border-bottom: 0.8px rgba(128, 128, 128, 0.342) solid;
+}
+
+.order-res-name {
+    padding-right: 10px;
+}

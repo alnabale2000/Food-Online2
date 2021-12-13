@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Muli:400,400i,700,700i");
+@import "styles.css/home_style/hero_image.css";
+@import "styles.css/home_style/new_restaurants.css";
+@import "styles.css/home_style/how_to_order.css";
+@import "styles.css/restaurants_style/restaurants_style_page.css";
+@import "styles.css/restaurant_page_style/main_page.css";
+@import "styles.css/cart_style/cart_page.css";
+@import "styles.css/restaurants_view_styles/orders.css";
+@import "styles.css/restaurants_view_styles/categories$meals/categories&meals_page.css";
+@import "styles.css/profile_style/user_profile.css";
+body {
+    margin: 0;
+    bottom: 0;
+    font-size: 17.5;
+    background: #ddd;
+}
+.App {
+    text-align: center;
+}
+
+.stick-footer {
+    padding: 30px;
+    text-align: center;
+    color: white;
+    height: 100px;
+    background-color: rgb(27, 26, 26);
+    bottom: 0;
+}
+
+.flex-box {
+    display: flex;
+}
+
+.baseline {
+    align-items: baseline;
+}
+
+.space-b {
+    justify-content: space-between;
+}
+
+.start {
+    justify-content: start;
+    text-align: start;
+}
+
+.align-center {
+    align-items: center;
+}

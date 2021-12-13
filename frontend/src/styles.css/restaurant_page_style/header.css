@@ -1,0 +1,91 @@
+.res-header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    text-align: start;
+}
+
+.res-img {
+    height: 50px;
+    width: 70px;
+    object-fit: contain;
+    align-self: flex-start;
+    border: 1px rgb(102, 91, 91) solid;
+}
+
+.res-info {
+    padding-left: 8px;
+    align-items: flex-end;
+}
+
+@media (min-width: 576px) {
+    .res-info {
+        font-size: 18px;
+    }
+
+    .res-img {
+        height: 135px;
+        width: 200px;
+    }
+    .more-info {
+        padding-left: 130px;
+    }
+}
+
+@media (min-width: 768px) {
+    .more-info {
+        padding-left: 310px;
+    }
+}
+@media (min-width: 992px) {
+    .more-info {
+        padding-left: 210px;
+    }
+}
+
+.res-name {
+    font-weight: 400;
+}
+
+.res-text {
+    color: rgb(128, 126, 126);
+    font-weight: 400;
+}
+
+.flex-end {
+    align-items: flex-end;
+}
+
+.switcher {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.fa-comments {
+    font-size: 22.5px;
+    margin-right: 5px;
+}
+
+.fa-menu {
+    font-size: 22.5px;
+    margin-right: 5px;
+}
+
+.black {
+    color: rgb(43, 40, 40);
+}
+
+.gray {
+    color: rgb(233, 236, 41);
+}
+
+.secure-delivery {
+    margin: 20px;
+    padding: 7.5px;
+    text-align: start;
+    background-color: rgba(113, 255, 149, 0.15);
+    align-items: center;
+}

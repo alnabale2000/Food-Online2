@@ -1,0 +1,48 @@
+#add_meal {
+    padding-top: 50px;
+    height: 550px;
+}
+
+.add-meal-steps {
+    text-align: start;
+}
+.add-meal-inputs {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.meal-input {
+    border: 0.8px rgb(185, 170, 170) solid;
+    width: 280px;
+    height: 35px;
+}
+
+.details {
+    height: 50px;
+}
+
+.add-meal-button {
+    height: 35px;
+    width: 280px;
+    justify-self: center;
+    /* max-width: 400px; */
+}
+
+@media (min-width: 800px) {
+    .meal-input {
+        width: 400px;
+    }
+    .add-meal-button {
+        width: 400px;
+    }
+}
+
+@media (min-width: 992px) {
+    .meal-input {
+        width: 450px;
+    }
+    .add-meal-button {
+        width: 450px;
+    }
+}

@@ -1,0 +1,23 @@
+#add_category {
+    height: 450px;
+    padding-top: 100px;
+    text-align: start;
+    justify-content: center;
+    text-align: center;
+}
+
+.category-input {
+    height: 35px;
+    width: 300px;
+}
+
+.add-category-button {
+    padding-top: 10px;
+    width: 300px;
+    height: 35px;
+}
+
+.suc-message {
+    padding-top: 15px;
+    color: green;
+}

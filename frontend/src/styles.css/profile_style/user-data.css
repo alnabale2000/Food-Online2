@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+#info {
+    height: 575px;
+    padding-top: 70px;
+    text-align: start;
+    justify-content: center;
+    text-align: center;
+}
+
+.welcome-text {
+    font-family: "Pacifico", cursive;
+}
+
+.user-info {
+    margin-top: 30px;
+    text-align: start;
+}
+
+.edit-info-button {
+    color: rgb(65, 60, 60);
+    transition-duration: 200ms;
+}
+
+.edit-info-button:hover {
+    color: black;
+    cursor: pointer;
+    transition-duration: 200ms;
+}
+
+.user-info-inputs {
+    margin-top: 40px;
+    text-align: start;
+}
+
+.user-info-buttons {
+    padding-top: 25px;
+    justify-content: space-between;
+}
+
+.cancel-b {
+    font-size: 18px;
+    color: rgb(236, 48, 48);
+    transition-duration: 220ms;
+}
+
+.cancel-b:hover {
+    cursor: pointer;
+    color: red;
+    transition-duration: 220ms;
+}
+
+/* .info-confirm-button {
+    border: 0.8px gray solid;
+} */

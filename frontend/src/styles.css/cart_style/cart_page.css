@@ -1,0 +1,28 @@
+@import "order_address.css";
+@import "order_meals.css";
+@import "send_order_section.css";
+
+.cart-body {
+    justify-content: center;
+    padding-right: 3%;
+    padding-left: 3%;
+    padding-top: 15px;
+    box-shadow: 1px 1px 15px rgba(194, 189, 189, 0.411);
+    border-bottom: 0.5px rgb(199, 196, 196) solid;
+    border-radius: 7px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+@media (min-width: 992px) {
+    .cart-body {
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+}
+@media (min-width: 1200px) {
+    .cart-body {
+        margin-left: 11%;
+        margin-right: 11%;
+    }
+}

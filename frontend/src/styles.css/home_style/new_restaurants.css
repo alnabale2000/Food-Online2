@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+.new-restaurants {
+    background-color: rgb(247, 247, 247);
+    height: 100%;
+    padding: 30px;
+}
+
+.restaurant-card {
+    margin-right: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    box-shadow: 2.5px 2.5px 10px grey;
+}
+
+.restaurants-card-group {
+    padding-top: 50px;
+}
+
+.restaurant-card:hover {
+    background-color: rgb(228, 213, 213);
+    cursor: pointer;
+    transition-duration: 400ms;
+}
+
+.top-text {
+    padding-top: 50px;
+    font-size: 40px;
+}
+
+.footer-card-text {
+    background: rgb(41, 39, 39) !important;
+    color: rgb(255, 255, 50);
+    font-size: 20px;
+}
+
+.footer-text {
+    padding-top: 50px;
+    font-size: 30px;
+    font-family: "Pacifico", cursive;
+}
+
+.footer {
+    padding-bottom: 80px;
+}

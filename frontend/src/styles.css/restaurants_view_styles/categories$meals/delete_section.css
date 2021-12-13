@@ -1,0 +1,36 @@
+#delete {
+    height: 730px;
+    padding-top: 70px;
+    text-align: start;
+}
+
+.warning-message {
+    color: red;
+    font-size: 17px;
+}
+
+.delete-category-icon {
+    color: rgb(218, 31, 31);
+    font-size: 20px;
+    align-self: flex-start;
+    margin-top: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.delete-category-text {
+    margin-right: 10px;
+    color: red;
+    cursor: pointer;
+}
+
+.select-delete-category {
+    margin-left: 10px;
+    width: 150px;
+    border: 0.8px rgb(185, 170, 170) solid;
+}
+
+.delete-choice-meal {
+    border-bottom: 0.8px gray solid;
+    margin-top: 15px;
+    display: flex;
+}

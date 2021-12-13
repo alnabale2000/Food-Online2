@@ -1,0 +1,52 @@
+.meals-body {
+    display: flex;
+    flex-direction: column;
+}
+.category-name {
+    background-color: rgb(243, 236, 236);
+    font-size: 25px;
+    font-style: italic;
+    text-align: start;
+    padding: 3px 0 0.5px 10px;
+}
+
+.meals-container {
+    border-bottom: 0.1px rgb(196, 189, 189) solid;
+    text-align: start;
+    padding: 10px 0 0 10px;
+}
+
+.meal-name {
+    font-size: 19px;
+}
+
+.plus-icon {
+    cursor: pointer;
+    color: rgb(233, 236, 41);
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.plus-icon:hover {
+    color: rgb(78, 75, 61);
+    transition-duration: 300ms;
+}
+
+.pressed-div {
+    transition-duration: 11150ms;
+    padding: 3.5px 5.5px 5px 5.5px;
+    background-color: rgb(27, 158, 27);
+    color: white;
+    height: 30px;
+    min-width: 80px;
+    border-radius: 50px;
+    justify-content: center;
+    text-align: center;
+}
+
+.green-b {
+    background-color: rgb(27, 158, 27);
+}
+
+.red-b {
+    background-color: red;
+}

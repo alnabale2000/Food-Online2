@@ -1,0 +1,42 @@
+.hero-image {
+    background-image: linear-gradient(to bottom, rgba(97, 97, 97, 0.205), rgba(0, 0, 0, 0.63)),
+        url("https://images.squarespace-cdn.com/content/v1/5c5c3833840b161566b02a76/1573133725500-Y5PCN0V04I86HDAT8AT0/WBC_7095.jpg?format=2500w");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 690px;
+    position: relative;
+    top: 0;
+    padding-top: 200px;
+    color: whitesmoke;
+    text-align: start;
+    padding-left: 5%;
+}
+
+@media (min-width: 576px) {
+    .hero-image {
+        padding-left: 17.5%;
+    }
+}
+
+.search {
+    display: flex;
+}
+
+.flexbox {
+    display: flex;
+}
+
+.search-bar {
+    border: 2px rgb(180, 180, 180) solid;
+    height: 40px;
+    width: 100%;
+    padding: 10px;
+    margin-right: 200px;
+}
+
+@media (min-width: 992px) {
+    .hero-image {
+        padding-left: 25%;
+    }
+}

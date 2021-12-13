@@ -1,0 +1,124 @@
+.orders-body {
+    background-color: rgb(255, 255, 255);
+}
+
+.res-orders {
+    justify-content: center;
+}
+
+.order-box {
+    border: 0.8px solid rgb(194, 185, 185);
+    padding: 0 10px 0 10px;
+    margin: 0 7.5px 0 7.5px;
+}
+
+.client-info {
+    padding: 15px;
+}
+
+.edit-padding {
+    padding: 0 1px 10px 0;
+}
+
+.location-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.location-main-info {
+    width: 90%;
+}
+
+.cl-name {
+    width: 90%;
+}
+
+.order-container {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: rgb(241, 237, 236);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.order-meals-header {
+    background-color: rgb(236, 227, 227);
+    justify-content: center;
+    height: 35.5px;
+    padding: 0 15px 0 15px;
+    margin: 0 15px 0 15px;
+}
+
+.order-meals-box {
+    padding-top: 15px;
+    margin: 0 15px 0 15px;
+    padding: 15px 15px 0 15px;
+}
+
+.location-extras {
+    padding-top: 7px;
+}
+
+.cl-phone-number {
+    padding-top: 7px;
+}
+
+.order-total-price {
+    padding: 15px;
+    margin: 0 7.5px 60px 7.5px;
+
+    font-size: 25px;
+    font-weight: 500;
+    border: 3px solid rgb(194, 185, 185);
+}
+
+@media (min-width: 576px) {
+    .location-info {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .contact-info {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .location-main-info {
+        width: 50%;
+    }
+
+    .location-extras {
+        padding-top: 0;
+        width: 50%;
+    }
+    .cl-name {
+        width: 50%;
+    }
+
+    .cl-phone-number {
+        width: 50%;
+    }
+}
+
+@media (min-width: 992px) {
+    .order-box {
+        margin: 0 5% 0 5%;
+    }
+    .order-total-price {
+        margin: 0 5% 70px 5%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .order-box {
+        margin: 0 7.5% 0 7.5%;
+    }
+    .order-total-price {
+        margin: 0 7.5% 80px 7.5%;
+    }
+}

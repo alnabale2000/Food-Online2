@@ -1,0 +1,47 @@
+@import "live_chat.css";
+@import "meals.css";
+@import "header.css";
+@import "comments.css";
+
+.res-body {
+    justify-content: center;
+    padding-right: 3%;
+    padding-left: 3%;
+    padding-top: 15px;
+    box-shadow: 1px 1px 15px rgb(194, 189, 189);
+    border-bottom: 0.5px gray solid;
+    border-radius: 7px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.res-main {
+    display: flex;
+    flex-direction: column;
+}
+
+.meals-sw {
+    cursor: pointer;
+}
+.comments-sw {
+    cursor: pointer;
+}
+
+@media (min-width: 992px) {
+    .res-main {
+        flex-direction: row;
+    }
+    .res-body {
+        width: 90%;
+        margin-left: 2%;
+    }
+}
+@media (min-width: 1200px) {
+    .res-main {
+        flex-direction: row;
+    }
+    .res-body {
+        width: 90%;
+        margin-left: 5%;
+    }
+}
